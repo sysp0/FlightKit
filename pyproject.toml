@@ -1,0 +1,21 @@
+[project]
+name = "flightkit"
+version = "0.1.0"
+description = "A simple tool to collect and clean flight price data."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "brotli>=1.2.0",
+    "requests>=2.32.5",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/flightkit"]
+
+[project.scripts]
+flightkit = "flightkit:cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
