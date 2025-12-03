@@ -1,15 +1,38 @@
-# FlightKit
+# 📘 FlightKit
 
-# 📘 مستندات فنی پروژه FlightKit
+> **A Simple Tool to Collect and Clean Flight Data**
 
-  
-
-> **A Simple Tool to Collect and Clean Flight Price Data**
+<video src="docs/Flightkit_cli.mp4" autoplay muted loop width="600"></video>
 
   
+## تکنولوژی‌های کلیدی
+<p align="center">
+  <a href="https://www.python.org/">
+    <img src="docs/logos/python-logo.png" alt="Python" width="100" />
+  </a>
+  <a href="https://click.palletsprojects.com/">
+    <img src="docs/logos/click-logo.png" alt="Click CLI" width="100" />
+  </a>
+  <a href="https://docs.python-requests.org/">
+    <img src="docs/logos/requests-logo.png" alt="Requests" width="100" />
+  </a>
+  <a href="https://openpyxl.readthedocs.io/">
+    <img src="docs/logos/openpyxl-logo.png" alt="OpenPyXL" width="100" />
+  </a>
+  <a href="https://pydantic.dev/">
+    <img src="docs/logos/pydantic-logo.png" alt="Pydantic" width="100" />
+  </a>
+  <a href="https://github.com/astral-sh/uv">
+    <img src="docs/logos/uv-logo.png" alt="uv" width="100" />
+  </a>
+  <a href="https://www.docker.com/">
+    <img src="docs/logos/docker-logo.png" alt="Docker" width="100" />
+  </a>
+</p>
 
----
 ## 📋 Executive Summary
+
+> قبل از هرچیزی اگر علاقه مند هستید چه مسیری برای پیاده سازی این پروژه طی شده است میتوانید [اینجا](docs/FlightKit_Design_Decisions.md) مطالعه کنید.
 
 
 برنامه **FlightKit** یک ابزار خط فرمان (CLI) است که به کاربران امکان می‌دهد داده‌های پروازی را از وب‌سایت‌های رزرو پرواز جمع‌آوری کرده و در قالب فایل Excel ذخیره کنند. این ابزار با استفاده از APIهای عمومی و تکنیک‌های web scraping، اطلاعات پروازها را برای تاریخ‌های مشخص استخراج و در فرمتی قابل استفاده برای تحلیل ارائه می‌دهد.
@@ -22,10 +45,6 @@
 - صرفه‌جویی در زمان برای مقایسه قیمت‌ها
 - فرمت استاندارد Excel برای تحلیل و گزارش‌گیری
 
-  
-
-**تکنولوژی‌های کلیدی:** Python 3.12+, Click CLI, Requests, OpenPyXL, Pydantic
-  
 ## 🎯 Problem Statement
 
 ### چالش کسب‌وکاری
