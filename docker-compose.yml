@@ -1,6 +1,5 @@
 services:
-  flightkit-cli:
+  flightkit:
     build: .
-    environment:
     volumes:
       - ./artifacts:/app/artifacts
