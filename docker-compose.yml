@@ -1,0 +1,10 @@
+services:
+  flightkit-cli:
+    build: .
+    environment:
+      - FLIGHT_DATE
+      - FLIGHTKIT_OUTPUT_PATH=/app/artifacts/flight_database.xlsx
+    volumes:
+      - ./artifacts:/app/artifacts
+    command: >
+      sh -c "python main_cli.py ${FLIGHT_DATE:+--date $FLIGHT_DATE}"
