@@ -85,7 +85,7 @@ def run_flight_search_task(target_date: str, filename: str, console: Console):
             time.sleep(0.5)
 
         console.print(Panel(
-            f"Saved to [bold]{filename}[/bold].",
+            f"Saved to [bold]artifacts/{filename}[/bold].",
             title="DONE",
             border_style="green"
         ))
