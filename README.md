@@ -1,10 +1,15 @@
-# 📘 FlightKit
+<div align="center">
 
-> **A Simple Tool to Collect and Clean Flight Data**
+  <h1>📘 FlightKit</h1>
 
-![FlightKit CLI Demo](docs/Flightkit_cli.gif)
+  <p>
+    <strong>A Simple Tool to Collect and Clean Flight Data</strong>
+  </p>
 
-## تکنولوژی‌های کلیدی
+  <img src="docs/Flightkit_cli.gif" alt="FlightKit CLI Demo" width="700">
+
+</div>
+
 <p align="center">
   <a href="https://www.python.org/">
     <img src="docs/logos/python-logo.png" alt="Python" width="100" />
@@ -28,6 +33,8 @@
     <img src="docs/logos/docker-logo.png" alt="Docker" width="100" />
   </a>
 </p>
+
+---
 
 ## 📋 Executive Summary
 در این داکیومنت، به تشریح معماری، ساختار کد و نحوه استفاده از ابزار **FlightKit** پرداخته شده است. هدف اصلی، ارائه یک راهکار بهینه جهت جمع‌آوری و پردازش داده‌های پرواز بوده است.
