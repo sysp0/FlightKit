@@ -1,5 +1,10 @@
 services:
   flightkit:
-    build: .
+    flightkit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ghcr.io/sysp0/flightkit:0.1.0
+    container_name: flightkit
     volumes:
       - ./artifacts:/app/artifacts
