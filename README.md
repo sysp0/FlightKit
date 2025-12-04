@@ -10,6 +10,10 @@
 
 </div>
 
+
+---
+
+
 <p align="center">
   <a href="https://www.python.org/">
     <img src="docs/logos/python-logo.png" alt="Python" width="100" />
