@@ -15,7 +15,7 @@ def run_flight_crawler(target_date: str):
     scraper = UtravsProvider()
     exporter = ExcelExporter()
     
-    criteria = SearchCriteria(origin="MHD", destination="THR", date=target_date)
+    criteria = SearchCriteria(origin="THR", destination="MHD", date=target_date)
     
     try:
         # 2. Fetch

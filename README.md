@@ -570,7 +570,7 @@ $ docker compose run --rm flightkit fetch --date 2025-12-09
 
 [+] Creating 1/0
 Batch mode - target date set to 2025-12-09
-Route: MHD → THR | Date: 2025-12-09
+Route: THR → MHD | Date: 2025-12-09
 Found 142 flights.
 Saved to flight_database.xlsx DONE                                               
 ```

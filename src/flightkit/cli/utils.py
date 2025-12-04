@@ -49,7 +49,7 @@ def run_flight_search_task(target_date: str, filename: str, console: Console):
     from flightkit.core import SearchCriteria, UtravsProvider
     from flightkit.exporters.excel_exporter import ExcelExporter
 
-    console.print(f"[info]Route:[/info] MHD → THR | [info]Date:[/info] {target_date}")
+    console.print(f"[info]Route:[/info] THR → MHD | [info]Date:[/info] {target_date}")
 
     try:
         flights = []
