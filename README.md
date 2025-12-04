@@ -2,9 +2,8 @@
 
 > **A Simple Tool to Collect and Clean Flight Data**
 
-<video src="docs/Flightkit_cli.mp4" autoplay muted loop width="600"></video>
+![FlightKit CLI Demo](docs/Flightkit_cli.gif)
 
-  
 ## تکنولوژی‌های کلیدی
 <p align="center">
   <a href="https://www.python.org/">
