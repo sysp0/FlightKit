@@ -559,6 +559,8 @@ print(f"✅ Saved {len(flights)} flights")
 $ docker run --rm -v "$(pwd):/app/artifacts/" ghcr.io/sysp0/flightkit:0.1.0 fetch --date 2025-12-09
 ```
 
+> ایمیج این داکر به‌طوری توسعه داده شده که هم معماری ARM64 (مثل مک‌های جدید اپل) و هم معماری AMD64 (لینوکس) را پشتیبانی می‌کند.
+
 
 > **نکته:** عبارت  `v $(pwd):/app/artifacts-` باعث می‌شود فایل اکسل خروجی در پوشه فعلی سیستم شما ذخیره شود.
 
