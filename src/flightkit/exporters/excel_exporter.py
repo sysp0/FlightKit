@@ -1,3 +1,4 @@
+import os
 from typing import List
 from pathlib import Path
 from openpyxl import Workbook, load_workbook
@@ -6,7 +7,9 @@ from flightkit.utils import logger
 from flightkit.core.models import Flight
 from flightkit.core.interfaces import IFlightExporter
 
-ARTIFACTS_DIR = Path(__file__).parent.parent.parent.parent / "artifacts"
+ARTIFACTS_DIR = Path(
+    os.getenv("ARTIFACTS_DIR", Path(__file__).parent.parent.parent.parent / "artifacts")
+)
 ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
 
 
